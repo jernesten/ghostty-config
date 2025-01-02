@@ -1,6 +1,6 @@
 #!/bin/python3
 
-file = open('config', 'r')
+file = open('/home/jernst/.config/ghostty/ghostty-config/config', 'r')
 read = file.readlines()
 modified = []
 final = []
