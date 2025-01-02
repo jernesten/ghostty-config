@@ -22,8 +22,10 @@ for row in modified:
         KeyBind = str('- ' + ccap + ' = ' + aupper)
         final.append(KeyBind)
 
+print('\n################ KEYBINDINGS ################\n')
+
 for keybind in final:
-    print('\n' + keybind)
+    print(keybind)
 
-
+print('\n#################### END ####################\n')
 
