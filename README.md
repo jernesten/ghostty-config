@@ -1,3 +1,3 @@
 # ghostty-config
 
-This is just my personal ghostty terminal configuration.
+This is just my personal ghostty terminal configuration file.
