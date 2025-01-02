@@ -16,12 +16,14 @@ file.close()
 for row in modified:
     if row.startswith('keybind'):
         comando = row.split('=')[-1]
+        ccap = comando.capitalize()
         atajo = row.split('=')[-2]
-        KeyBind = str(comando + ' = ' + atajo.capitalize())
+        aupper = atajo.upper()
+        KeyBind = str('- ' + ccap + ' = ' + aupper)
         final.append(KeyBind)
 
 for keybind in final:
-    print(keybind)
+    print('\n' + keybind)
 
 
 
