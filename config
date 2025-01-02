@@ -1,0 +1,46 @@
+wait-after-command = true
+clipboard-read = allow
+clipboard-write = allow
+window-theme = system
+#background = #404552
+background = #2f343f
+foreground = #F4F4F4
+selection-background = #90A9F9
+selection-foreground = #000000
+#background-opacity = 0.8
+shell-integration-features = no-cursor
+cursor-click-to-move = true
+cursor-style = block
+cursor-color = #52705A
+cursor-text = #000000
+font-size = 12
+gtk-titlebar = false
+gtk-wide-tabs = false
+gtk-adwaita = false
+
+
+keybind = ctrl+up=scroll_page_up
+keybind = shift+up=adjust_selection:up
+keybind = ctrl+down=scroll_page_down
+keybind = shift+down=adjust_selection:down
+keybind = ctrl+shift+q=close_surface
+keybind = super+k=clear_screen
+keybind = ctrl+x=quit
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+n=new_window
+keybind = ctrl+f=toggle_fullscreen
+keybind = ctrl+ç=toggle_tab_overview
+
+keybind = super+a>r=reload_config
+keybind = super+a>d=toggle_window_decorations
+keybind = super+a>right=new_split:right
+keybind = super+a>left=new_split:left
+keybind = super+a>up=new_split:up
+keybind = super+a>down=new_split:down
+keybind = super+a>ctrl+right=goto_split:right
+keybind = super+a>ctrl+left=goto_split:left
+keybind = super+a>ctrl+up=goto_split:top
+keybind = super+a>ctrl+down=goto_split:bottom
+keybind = super+a>.=goto_split:next
+keybind = super+a>,=goto_split:previous
