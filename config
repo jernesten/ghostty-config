@@ -24,7 +24,7 @@ keybind = shift+up=adjust_selection:up
 keybind = ctrl+down=scroll_page_down
 keybind = shift+down=adjust_selection:down
 keybind = ctrl+shift+q=close_surface
-keybind = ctrl+k=clear_screen
+keybind = ctrl+shift+k=clear_screen
 keybind = ctrl+x=quit
 
 keybind = ctrl+t=new_tab
