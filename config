@@ -18,6 +18,7 @@ gtk-titlebar = false
 gtk-wide-tabs = false
 gtk-adwaita = false
 
+#command = tmux -2
 
 keybind = ctrl+up=scroll_page_up
 keybind = shift+up=adjust_selection:up
@@ -27,8 +28,8 @@ keybind = ctrl+shift+q=close_surface
 keybind = ctrl+shift+k=clear_screen
 keybind = ctrl+x=quit
 
-keybind = ctrl+t=new_tab
-keybind = ctrl+n=new_window
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+n=new_window
 keybind = ctrl+enter=toggle_fullscreen
 
 keybind = super+a>r=reload_config
