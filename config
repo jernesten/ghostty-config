@@ -29,7 +29,7 @@ keybind = ctrl+x=quit
 
 keybind = ctrl+t=new_tab
 keybind = ctrl+n=new_window
-keybind = ctrl+f=toggle_fullscreen
+keybind = ctrl+enter=toggle_fullscreen
 
 keybind = super+a>r=reload_config
 keybind = super+a>d=toggle_window_decorations
